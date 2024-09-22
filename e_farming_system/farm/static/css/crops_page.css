@@ -1,0 +1,58 @@
+/* crops_page.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.back-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.crops-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.crop-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 250px; /* Set a fixed width for crop items */
+    transition: box-shadow 0.3s ease;
+}
+
+.crop-item:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.crop-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+p {
+    margin: 5px 0;
+    color: #555;
+}
